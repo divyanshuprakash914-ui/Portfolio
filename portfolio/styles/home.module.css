@@ -9,7 +9,7 @@
   background: #1a1a1a;
   border-radius: 0px;
   border: 1px solid #242424;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45); */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 .heroSubtitle {
   color: #6adbcf;
   font-family: "JetBrains Mono", monospace;
-  font-size: 12px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
@@ -175,19 +175,29 @@
 .statsBar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  border: 1px solid #3c3c3c;
+  gap: 0;
+  border: 1px solid #2b2b2b;
   padding: 0;
-  border-radius: 4px;
+  border-radius: 10px;
   margin: 34px 0 0;
-  background: #3c3c3c;
+  background: #222;
   overflow: hidden;
 }
 
 .statCard {
   text-align: center;
-  padding: 16px 0;
-  background: rgba(255, 255, 255, 0.02);
+  padding: 22px 0;
+  background: #242424;
+  border-right: 1px solid #2b2b2b;
+  transition: background 0.2s ease;
+}
+
+.statCard:last-child {
+  border-right: none;
+}
+
+.statCard:hover {
+  background: #2b2b2b;
 }
 
 .statValue {
@@ -199,8 +209,8 @@
 .statLabel {
   font-size: 10px;
   color: #8d8d8d;
-  margin-top: 4px;
-  letter-spacing: 1.5px;
+  margin-top: 6px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
