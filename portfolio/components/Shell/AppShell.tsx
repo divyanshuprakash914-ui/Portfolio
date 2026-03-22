@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import styles from "@/styles/shell.module.css";
 import About from "@/components/About/About";
 import Projects from "@/components/Projects/Projects";
+import Skills from "@/components/Skills/Skills";
 
 const explorerItems = [
   { label: "home.tsx", type: "tsx" },
@@ -209,6 +210,8 @@ export default function AppShell({ children }: AppShellProps) {
             <About />
           ) : active === "projects.js" ? (
             <Projects />
+          ) : active === "skills.json" ? (
+            <Skills />
           ) : (
             <div className={styles.filePane}>
               <div className={styles.filePaneHeader}>{fileContent[active]?.title}</div>
