@@ -5,6 +5,7 @@ import styles from "@/styles/shell.module.css";
 import About from "@/components/About/About";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
+import Contact from "@/components/Contact/Contact";
 
 const explorerItems = [
   { label: "home.tsx", type: "tsx" },
@@ -212,6 +213,8 @@ export default function AppShell({ children }: AppShellProps) {
             <Projects />
           ) : active === "skills.json" ? (
             <Skills />
+          ) : active === "contact.css" ? (
+            <Contact />
           ) : (
             <div className={styles.filePane}>
               <div className={styles.filePaneHeader}>{fileContent[active]?.title}</div>
