@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className={styles.about}>
       <header className={styles.header}>
-        <p className={styles.kicker}>&lt;!-- about.html - Divyanshu Prakash--&gt;</p>
+        <p className={styles.kicker}>&lt;!-- about.html - Vani Bansal--&gt;</p>
         <h1 className={styles.title}>About Me</h1>
         <p className={styles.sub}>// who I am • what I do • where I build</p>
       </header>

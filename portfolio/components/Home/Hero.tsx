@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <HeroHeader
-        name="Divyanshu Prakash"
+        name="Vani Bansal"
         subtitle="// hello world !! Welcome to my portfolio"
       />
       <RoleChips roles={roles} />

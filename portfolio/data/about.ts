@@ -1,5 +1,5 @@
 export const about = {
-  name: "Divyanshu",
+  name: "Vani",
   description: `a developer and robotics enthusiast working at the intersection of computer vision, embedded systems, and AI.
 I enjoy building intelligent systems that interact with the real world — from object detection pipelines to autonomous robotics.
 Currently focused on projects involving Raspberry Pi, Jetson, and real-time AI systems, aiming to create scalable and efficient solutions.`,

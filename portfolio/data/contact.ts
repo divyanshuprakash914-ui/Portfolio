@@ -6,7 +6,7 @@ export const contact = {
   links: [
     {
       label: "EMAIL",
-      value: "divyanshuprakash@gmail.com",
+      value: "vanibansal174@gmail.com",
       href: "mailto:divyanshuprakash914@gmail.com",
       accent: "email",
       color: "green",
